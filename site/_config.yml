@@ -3,92 +3,52 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Galaxy Docs
-subtitle: Galaxy Docs
-description:
+title: eBaoCloud LI Docs
+subtitle: eBaoCloud LI Docs
+description: Provide full stack eBaoCloud LI document on
 author:
 language:
-timezone:
+  - en
+  - zh-cn
+  - zh-tw
+timezone: Asia/Shanghai
 apis:
-  segment: G21NW9GGR3lY3f37qLk9Ym1fH6EjfJFB
+  segment:
 versions:
   - '1'
-github_repo: meteor/galaxy-docs
+github_repo: zhuliliang/ebaocloud-li-docs
 sidebar_categories:
   null:
     - index
-  Deploy:
-    - deploy-quickstart
-    - deploy-guide
-    - environment-variables
-    - mongodb
-    - container-environment
-    - base-image-packages
-    - deploy-region
-    - migrate-app
-  Setup:
-    - custom-domains
-    - dns
-    - encryption
-  Monitor:
-    - app
-    - containers
-    - logs
-  Manage:
-    - deploy-troubleshooting
-    - scaling
-    - high-availability
-    - seo
-    - cdn
-    - file-storage
-    - transfer-apps
-    - commands
-  Meteor APM:
-    - apm-getting-started
-    - apm-make-your-app-faster
-    - apm-reducing-pubsub-data-usage
-    - apm-reduce-bandwidth-and-cpu-waste
-    - apm-optimize-your-app-for-oplog
-    - apm-managing-waittime
-    - apm-know-your-observers
-    - apm-debugging-meteor-response-time-bottlenecks
-    - apm-optimizing-your-app-for-live-queries
-    - apm-improve-cpu-and-network-usage
-    - kb-widgets-dashboard
-    - kb-widgets-pubsub
-    - kb-widgets-live-queries
-    - kb-widgets-methods
-    - kb-error-tracking
-  Accounts:
-    - billing
-    - collaborators
-    - support
-    - security
+  GET STARTED:
+    - first-appliation
+  Tools:
+    - swagger
+    - postman
+    - jmeter
 
 # themeing
-favicon: '../images/favicon.png'
+favicon: '../images/favicon.ico'
 
 logo:
-  nav_mobile: '../images/logo-coralspace-left.svg'
-  url: 'http://www.meteor.com/hosting'
-  title: 'Meteor Galaxy Docs'
-  subtitle: 'Galaxy Docs'
+  nav_mobile: '../images/ebaocloud-logo-alpha.png'
+  url: 'http://docs.ebaocloud.life'
+  title: 'eBaoCloud Docs'
+  subtitle: 'eBaoCloud LI Docs'
 
 nav_links:
-  'Meteor.com': 'https://www.meteor.com'
-  'Install': 'https://www.meteor.com/install'
-  'Guide': 'http://guide.meteor.com'
-  'Tutorials': 'https://www.meteor.com/tutorials/blaze/creating-an-app'
-  'Docs': 'http://docs.meteor.com'
-  'Forums': 'https://forums.meteor.com/'
+  'About eBaoCloud': 'http://www.ebaotech.com/ebao-cloud-en/overview'
+  'Developers Guide': 'http://docs.ebaocloud.life/guide'
+  'Test Cases': 'http://docs.ebaocloud.life/tc'
+  'APIs Reference': 'http://docs.ebaocloud.life/api'
+  'Forums': '#'
 
 social_links:
-  github: 'https://github.com/meteor'
-  twitter: '@meteor'
+  github: 'https://github.com/zhuliliang'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://galaxy-guide.meteor.com/
+url: http://docs.ebaocloud.life/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -136,6 +96,11 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  single_language_index: false
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/

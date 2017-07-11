@@ -1,22 +1,23 @@
 ---
 title: Introduction
 order: 0
-description: The guide for deploying, scaling, and managing Meteor apps on Galaxy
+description: The guide for how to use the eBaoCloud as a platform to build your own appliations.
 ---
 
-This is the official documentation for Galaxy.
+This is the official documentation for eBaoCloud.
 
-<h3 id="what-is">What is Galaxy?</h3>
+<h3 id="what-is">What is eBaoCloud?</h3>
 
-Galaxy is the simplest way to deploy, scale, and manage your Meteor apps.
+eBaoCloud is an Open API Platform for Connected Insurance.
 
-- **One command deploy**: Deploy your Meteor app in one command
+- **Native cloud architecture**: With the decade expereience and deep knowledge of the insurance industry, we build a native cluod solution for the every shareholders (insurer, channel, agent, broker, customer...). The eBaoCloud can support both tranditional products and new Internet insurance.
 
-- **Seamless scalability**: Customize the size and number of containers to meet your apps unique resource requirements
+- **Micro services and Open APIs**: By using micro services and Open APIs, eBaoCloud expose the insurance related capacity to the public. With the document, 3rd party developers can easily build their own application without any deep insurance knowledges.
 
-- **Simple management**: Use a unified interface to manage, understand usage characteristics, and adjust settings for all your Meteor apps
+- **Innovations**: The eBaoCloud provides native innovations in many area such as product bundling, cross channels ...
 
-- **Integrated Meteor APM**: Use Meteor APM to optimize the performance of your production application.
+- **Connection to Everything**: Pre-build product engine and connecters work as a hub which connect every shareholds.
+
 
 <h3 id="quickstart">Get Started</h3>
 

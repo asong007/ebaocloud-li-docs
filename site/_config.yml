@@ -38,8 +38,8 @@ logo:
 
 nav_links:
   'About eBaoCloud': 'http://www.ebaotech.com/ebao-cloud-en/overview'
-  'Developers Guide': 'http://docs.ebaocloud.life/guide'
-  'Test Cases': 'http://docs.ebaocloud.life/tc'
+  'Developers Guide': 'http://docs.ebaocloud.life/guide/'
+  'Test Cases': 'http://docs.ebaocloud.life/tc/'
   'APIs Reference': 'http://docs.ebaocloud.life/api'
   'Forums': '#'
 

@@ -4,13 +4,19 @@
 
 # Site
 title: eBaoCloud LI Docs
-subtitle: eBaoCloud LI Docs
+subtitle: 
 description: Provide full stack eBaoCloud LI document on
 author:
 language:
   - en
   - zh-cn
   - zh-tw
+# config hexo-generator-i18n option (optional, this is default option)
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
+
+
 timezone: Asia/Shanghai
 apis:
   segment:
@@ -96,11 +102,7 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-  single_language_index: false
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/

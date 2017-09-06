@@ -2,6 +2,9 @@
 title: Introduction
 order: 0
 description: The guide for how to use the eBaoCloud as a platform to build your own appliations.
+date: 2017-07-15
+updated: 2017-07-15
+comments:	true
 ---
 
 This is the official documentation for eBaoCloud.
